@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css?family=Faster+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300&display=swap');
+
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background: #FFFD63;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+}
+
+.navigation ul, .navigation li {
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.navigation {
+    display: flex;
+    gap: 24px;
+}
+
+.navigation a {
+    padding: 10px 15px;
+    border-radius: 16px;
+    color: #222;
+    font-family: 'Inter', sans-serif;
+    font-size: 12px;
+    text-decoration: none;
+    background: transparent;
+}
+
+.navigation a[href="#gymrat"] {
+    padding: 13px 20px; 
+    color: #222;
+    font-family: "Faster One", sans-serif;
+    font-size: 18px;
+}
+
+.navigation a[href="#signup"] {
+    padding: 13px 20px; 
+    background: rgba(10, 11, 30, 0.10);
+    color: #0A0B1E;
+    border-radius: 12px;
+}
+
+main {
+    display: flex;
+    justify-content: column;
+    align-items: center;
+    padding: 0px 20px;
+    flex-direction: column;
+}
+
+.slogan-heading {
+    display: flex;
+    padding: 0px 116.92px 0px 118.08px;
+    justify-content: center;
+    align-items: flex-start;
+    color: #0A0B1E;
+    text-align: center;
+    font-family: Inter;
+    font-size: 80px;
+    font-style: normal;
+    font-weight: 1800;
+    line-height: 80px; 
+    line-height: 1; 
+}
+.slogan-heading h1 {
+    margin-bottom: 10px;
+}
+
+.subslogan {
+    margin-top: 0;
+    display: flex;
+    flex-direction: column; 
+    justify-content: center;
+    align-items: center;
+}
+
+.subslogan p {
+    margin-top: 0; 
+    margin-bottom: 100; 
+}
+
+p span {
+    color: #050505;
+    text-align: center;
+    font-family: Inter;
+    font-size: 50px;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 78px;
+    letter-spacing: -2.563px;
+}
+
+.yellow-space {
+    display: flex;
+    width: 100vw;
+    height: 179px;
+    padding: 120px 80px 120px 80px;
+    justify-content: center;
+    align-items: flex-start;
+    background: #FFFD63;
+    position: relative; /* Ensure positioning context */
+    z-index: 1;
+}
+
+.white-space {
+    display: flex;
+    width: 100vw;
+    height: 537.59px;
+    padding: 120px 80px 10px 80px;
+    justify-content: center;
+    align-items: flex-start;
+    background: white;
+    position: relative; /* Ensure positioning context */
+    z-index: 1;
+}
+
+.white-space h1 {
+    width: 1280px;
+    color: #0A0B1E;
+}
+
+.headline-highlight {
+    width: 1280px;
+    color: #0A0B1E;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 69.12px; 
+}
+
+.headline-description {
+    width: 1280px;
+    color: #0A0B1E;
+    font-family: Inter;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 69.12px;
+}
+
+.highlight {
+    background-color: #FFFD6A; 
+    width: 676px;
+    height: 72px;
+    flex-shrink: 0;
+}
+
+.content-container {
+  display: flex;
+  justify-content: space-around;
+  position: relative; 
+  height:400;
+}
+
+.content-block {
+  border-radius: 80px;
+  padding: 80px 80px;
+  max-width: 900px;
+  height: 300px; 
+  display: flex;
+  align-items: center;
+  flex-direction: column; 
+  justify-content: center;
+  flex-shrink: 0;
+}
+.content-block h2{
+    width: 321px;
+    color: #0A0B1E;
+    font-family: Inter;
+    font-size: 39px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 48.4px;
+}
+.content-block p{
+    width: 324px;
+    color: #0A0B1E;
+    font-family: Inter;
+    font-size: 19px;
+    font-style: normal;
+    font-weight: 300;
+    line-height: 30.8px; 
+}
+
+#block1 {
+  background: #FFA675;
+}
+
+#block2 {
+    background: #FFE68C;
+    left: 50%;
+    top: 50%; 
+    transform: translate(-15%, -30%); 
+    z-index: 1; 
+}
+
+#block3 {
+    background: #FF8460;
+}
